@@ -1,3 +1,14 @@
+# Darrk Police System V1
+`All you need for the police :)`
+## Preview
+
+![App Screenshot](https://media.discordapp.net/attachments/964753121744142336/1012156451634024559/unknown.png?width=1193&height=671)
+
+![App Screenshot](https://media.discordapp.net/attachments/964753121744142336/1012156452057653359/unknown.png)
+
+![App Screenshot](https://media.discordapp.net/attachments/964753121744142336/1012156452405776494/unknown.png)
+
+![App Screenshot](https://media.discordapp.net/attachments/964753121744142336/1012156453085257748/unknown.png?width=554&height=671)
 
 
 ## Dependencies
@@ -41,6 +52,5 @@ Search for `["police"]` and add This
     shouldClose = true
 },
 ```
-
 ## Credits
 - Original Alerts: https://github.com/Project-Sloth/ps-dispatch
