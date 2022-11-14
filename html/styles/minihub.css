@@ -1,0 +1,144 @@
+.minihub-container {
+    display: none;
+    position: absolute;
+    right: 5vw;
+    top: 7vw;
+    background: var(--color-7);
+    height: fit-content;
+    width: 321px;
+    border-bottom: 9.27333px solid rgb(38, 38, 38);
+    overflow: hidden;
+}
+
+.mh-header {
+    display: block;
+    font-family: var(--font-1);
+    color: var(--color-12);
+    text-align: center;
+    font-weight: 700;
+    font-size: 1vw;
+    letter-spacing: 0.24em;
+}
+
+.mh-officer {
+    background: var(--color-9);
+    width: 294.61px;
+    height: 41.37px;
+    margin: 1vw 0vw;
+    position: relative;
+    left: 0.5vw;
+}
+
+.mho-data {
+    font-family: var(--font-1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7vw;
+    line-height: 2vw;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 2.4vw;
+}
+
+.mho-police {
+    width: 1.7vw;
+    position: absolute;
+    left: 0.5vw;
+    top: 0.28vw;
+}
+
+.mho-buttons {
+    display: flex;
+    width: 3vw;
+    position: absolute;
+    fill: white;
+    top: 0.4vw;
+    right: 0.5vw;
+}
+
+.mh-settings {
+    width: 2vw;
+    position: relative;
+    left: 7.2vw;
+    transition: all 0.2s ease 0s;
+}
+
+.mh-settings:hover {
+    transform: scale(1.1);
+    fill: var(--color10);
+}
+
+.mh-setting-container {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 9vw;
+    height: 11vw;
+    top: 10.3vw;
+    background: rgb(51, 51, 51);
+    border-right: 5px solid rgb(38, 38, 38);
+    right: 12.7vw;
+    text-align: center;
+    color: var(--color-12);
+    font-family: var(--font-1);
+    line-height: 0.7vw;
+}
+
+.toggle {
+    cursor: pointer;
+    display: inline-block;
+    margin: 1vw 0vw;
+}
+
+.toggle-switch {
+    display: inline-block;
+    background: rgb(204, 204, 204);
+    border-radius: 16px;
+    width: 58px;
+    height: 32px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s ease 0s;
+}
+
+.toggle-switch::before,
+.toggle-switch::after {
+    content: "";
+}
+
+.toggle-switch::before {
+    display: block;
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(238, 238, 238) 100%);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px 1px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: left 0.25s ease 0s;
+}
+
+.toggle:hover .toggle-switch::before {
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 1px;
+}
+
+.toggle-checkbox:checked+.toggle-switch {
+    background: rgb(86, 192, 128);
+}
+
+.toggle-checkbox:checked+.toggle-switch::before {
+    left: 30px;
+}
+
+.toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+.toggle-label {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
