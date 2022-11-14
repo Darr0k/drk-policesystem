@@ -19,7 +19,13 @@
 [[oxmysql]](https://github.com/overextended/oxmysql/) (Latest)
 
 ## Installation
-`qb-core/server/player.lua:144` \
+`qb-core/server/player.lua:114` 
+
+```lua
+PlayerData.metadata['showRadio'] = PlayerData.metadata['showRadio'] or true
+```
+
+`qb-core/server/player.lua:144` 
 ```lua
 PlayerData.metadata['police'] = PlayerData.metadata['police'] or {}
 PlayerData.metadata['police']['points'] = PlayerData.metadata['police']['points'] or 0
