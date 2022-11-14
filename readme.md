@@ -19,6 +19,18 @@
 [[oxmysql]](https://github.com/overextended/oxmysql/) (Latest)
 
 ## Installation
+`qb-core/server/player.lua:144` \
+```lua
+PlayerData.metadata['police'] = PlayerData.metadata['police'] or {}
+PlayerData.metadata['police']['points'] = PlayerData.metadata['police']['points'] or 0
+PlayerData.metadata['wings'] = PlayerData.metadata['wings'] or {
+    ['weapons'] = false,
+    ['k9'] = false,
+    ['undercover'] = false,
+    ['pilot'] = false
+}
+```
+
 `qb-core/server/player.lua:176` \
 Replace Job With This
 ```lua
