@@ -1,7 +1,7 @@
 PlayerData = {}
 PlayerJob = {}
 isLoggedIn = true
-DRKDispatch = exports['Config.CoreName']:GetCoreObject()
+DRKDispatch = exports[Config.CoreName]:GetCoreObject()
 local Library = exports['drk-lib']
 local blips = {}
 
