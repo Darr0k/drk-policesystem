@@ -1,4 +1,4 @@
-local DRKDispatch = exports['Config.CoreName']:GetCoreObject()
+local DRKDispatch = exports[Config.CoreName]:GetCoreObject()
 local SystemOpen = false
 local PoliceLos = 0
 local PoliceSan = 0
