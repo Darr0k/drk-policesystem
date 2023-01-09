@@ -350,6 +350,7 @@ if Config.Target['Enable'] then
                         end,
                         icon = v.icon,
                         label = v.Label,
+                        job = v.job
                     },
                 },
             distance = 3.5
