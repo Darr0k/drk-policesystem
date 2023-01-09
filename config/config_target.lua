@@ -12,7 +12,8 @@ Config.Target = {
             width = 1.8,
             icon = 'fa-solid fa-desktop', -- Target Icon
             Label = 'Open System', -- Target Text
-            CheckDuty = true
+            CheckDuty = true,
+            job = 'police'
         }
     }
 }
